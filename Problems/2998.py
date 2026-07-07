@@ -1,7 +1,11 @@
-'''Main'''
-STUNUM = str(input())
+'''main'''
 
-if STUNUM[2] == "1" and STUNUM[3] == "6":
-    print("yes")
-else:
-    print("no")
+import math as m
+
+Q1 = float(input())
+Q2 = float(input())
+P1 = float(input())
+P2 = float(input())
+
+CAL = m.sqrt((Q1-P1)**2 + (Q2-P2)**2)
+print(CAL)
