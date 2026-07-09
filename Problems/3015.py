@@ -1,13 +1,11 @@
 '''main'''
 
-X = int(input())
-Y = int(input())
-A = int(input())
-Z = int(input())
-TOTAL = 0
+X = float(input())
+Y = float(input())
+A = float(input())
+Z = float(input())
 
-if X > Y:
-    TOTALP = (Z // X)*(X-Y)
-    TOTAL = (Z*A)-(A*TOTALP)
+DISCOUNT = (Z // X) * (X-Y)
+TOTAL = (Z-DISCOUNT)*A
 
-print(TOTAL)
+print(round(TOTAL))
