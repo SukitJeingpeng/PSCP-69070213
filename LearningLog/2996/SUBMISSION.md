@@ -14,26 +14,26 @@ If AI was used for this learning-log-required problem, also complete `ai_reflect
 
 OJ problem number/title:
 
-```2996สลับตัวอักษร
-
+```
+2996สลับตัวอักษร
 ```
 
 OJ submission ID, if submitted:
 
-```541380
-
+```
+541380
 ```
 
 OJ status:
 
 ```
-Pass / Not Pass / Not Submit
+Pass
 ```
 
 Independent time spent on this problem:
 
-```01-15 minutes
-
+```
+01-15 minutes
 ```
 
 How to count this time:
@@ -57,8 +57,8 @@ Also explain the input, output, and important constraints.
 
 If you do not fully understand the problem yet, write what you currently understand. Your understanding may be incomplete or incorrect, but you must make a genuine attempt.
 
-```This Question is asked to solve an inverse letter in words so my input have WORD and my output is printing WORD backward
-
+```
+This Question is asked to solve an inverse letter in words so my input have WORD and my output is printing WORD backward
 ```
 
 ---
@@ -99,8 +99,8 @@ Do not copy AI's explanation.
 
 Do not copy another person's explanation.
 
-```It came out as I expected. It should be correct because the input is always 5Letters and My code is can only use with 5letters in word or else it will make index out of range or make the word not fully backward.
-
+```
+It came out as I expected. It should be correct because the input is always 5Letters and My code is can only use with 5letters in word or else it will make index out of range or make the word not fully backward.
 ```
 
 ---
@@ -126,25 +126,25 @@ I used this one as my test case because it show every upper case is made lower. 
 
 Input:
 
-```TESTT
-
+```
+TESTT
 ```
 
 Expected output:
 
-```ttest
-
+```
+ttest
 ```
 
 Actual output:
 
-```ttest
-
+```
+ttest
 ```
 
 Result:
 
-```text
+```
 Pass
 ```
 
@@ -158,56 +158,58 @@ Why I chose this case:
 
 Input:
 
-```HEllOWoRLd
-
+```
+HEllOWoRLd
 ```
 
 Expected output:
 
-```It must be broke
-
+```
+It must be broke
 ```
 
 Actual output:
 
-```olleh
-
+```
+olleh
 ```
 
 Result:
 
-```Not Pass
+```
+Not Pass
 ```
 
 ### Test Case 3
 
 Why I chose this case:
 
-```I choose this case to check if the letter in word is lesser than 5 will it break my code.
-
+```
+I choose this case to check if the letter in word is lesser than 5 will it break my code.
 ```
 
 Input:
 
-```Lets
-
+```
+Lets
 ```
 
 Expected output:
 
-```The code must be broke.
-
+```
+The code must be broke.
 ```
 
 Actual output:
 
-```Error index out of range
-
+```
+Error index out of range
 ```
 
 Result:
 
-```Not Pass
+```
+Not Pass
 ```
 
 ---
@@ -216,7 +218,7 @@ Result:
 
 Did you use AI for this problem?
 
-```text
+```
 No
 ```
 
@@ -230,7 +232,8 @@ If you only asked a friend, TA, or instructor and did not use AI, you do not nee
 
 Did you ask a friend, TA, instructor, or another person for help on this problem?
 
-```No
+```
+No
 ```
 
 If yes, briefly explain what kind of help you received.
@@ -254,25 +257,27 @@ Not allowed:
 
 Who helped you?
 
-```-
+```
+-
 
 ```
 
 What did they help with?
 
-```-
-
+```
+-
 ```
 
 What did you still do by yourself?
 
-```-
-
+```
+-
 ```
 
 Did you copy any code from another person?
 
-```-
+```
+-
 ```
 
 ---
