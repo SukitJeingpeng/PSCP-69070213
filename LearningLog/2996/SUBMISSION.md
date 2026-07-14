@@ -77,7 +77,7 @@ This can be rough. It may be incomplete or different from your final solution.
 
 You may write pseudocode, a flowchart idea, or step-by-step thinking.
 
-```text
+```
 Step 1: My first step is to make my input become lower case so i use input().lower()
 Step 2: My second step is make "WORD" print backward so i do print(f"{WORD[4]}{WORD[3]}{WORD[2]}{WORD[1]}{WORD[0]}") there is other way to do it but I like it this way.
 Step 3: Check if the result is correct or not.
@@ -152,8 +152,8 @@ Pass
 
 Why I chose this case:
 
-```I chose this test case because the letters in this word is more than 5 and I think it musk broke my code
-
+```
+I chose this test case because the letters in this word is more than 5 and I think it musk broke my code
 ```
 
 Input:
