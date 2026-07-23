@@ -15,25 +15,25 @@ If AI was used for this learning-log-required problem, also complete `ai_reflect
 OJ problem number/title:
 
 ```text
-
+3011/Colors
 ```
 
 OJ submission ID, if submitted:
 
 ```text
-
+545367
 ```
 
 OJ status:
 
 ```text
-Pass / Not Pass / Not Submit
+Pass
 ```
 
 Independent time spent on this problem:
 
-```text
-
+```
+15-30 minutes
 ```
 
 Choose one:
@@ -73,7 +73,7 @@ Also explain the input, output, and important constraints.
 If you do not fully understand the problem yet, write what you currently understand. Your understanding may be incomplete or incorrect, but you must make a genuine attempt.
 
 ```text
-
+there are 2 input Color1 and Color2 it asked if you combined two of them together what would the output be ? So there is actaully seven output here 1.Red 2.Yellow 3.Blue 4.Green 5.Orange 6.Violet and 7.Error 
 ```
 
 ---
@@ -93,9 +93,9 @@ This can be rough. It may be incomplete or different from your final solution.
 You may write pseudocode, a flowchart idea, or step-by-step thinking.
 
 ```text
-Step 1:
-Step 2:
-Step 3:
+Step 1: My first plan was to make the code get 2 color input
+Step 2: then make a condition to check if the 2 color mix together and be one of the output color
+Step 3: check if the output work
 ```
 
 ---
@@ -114,8 +114,8 @@ Do not copy AI's explanation.
 
 Do not copy another person's explanation.
 
-```text
-
+```
+I used my first plan and it have an issue that i forgot to make the codition that if color1 and color2 is the same color then make the output be that color so the code didn't pass. After I see the issue I fixed the code and the result is pass now.
 ```
 
 ---
@@ -135,31 +135,32 @@ If the input or output has many lines, write them inside the text blocks.
 Why I chose this case:
 
 ```text
-
+I used this Test Case because these two input doesn't in any condition so the code should run in "else" and the output should be "Error"
 ```
 
 Input:
 
 ```text
-
+Black
+White
 ```
 
 Expected output:
 
 ```text
-
+Error
 ```
 
 Actual output:
 
 ```text
-
+Error
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Not Pass
 ```
 
 ### Test Case 2
@@ -167,31 +168,32 @@ Pass / Not Pass
 Why I chose this case:
 
 ```text
-
+I used this test case because it in the "output green" condition and the output in this testcase should be "green"
 ```
 
 Input:
 
 ```text
-
+Yellow
+Blue
 ```
 
 Expected output:
 
 ```text
-
+Green
 ```
 
 Actual output:
 
 ```text
-
+Green
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ### Test Case 3
@@ -199,31 +201,32 @@ Pass / Not Pass
 Why I chose this case:
 
 ```text
-
+I used this test case because the two input is the same color in "Red" condition and the output should be red
 ```
 
 Input:
 
 ```text
-
+Red
+reD
 ```
 
 Expected output:
 
 ```text
-
+Red
 ```
 
 Actual output:
 
 ```text
-
+Red
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ---
@@ -233,7 +236,7 @@ Pass / Not Pass
 Did you use AI for this problem?
 
 ```text
-Yes / No
+No
 ```
 
 If yes, also complete:
@@ -251,7 +254,7 @@ If you only asked a friend, TA, or instructor and did not use AI, you do not nee
 Did you ask a friend, TA, instructor, or another person for help on this problem?
 
 ```text
-Yes / No
+No
 ```
 
 If yes, briefly explain what kind of help you received.
@@ -276,19 +279,19 @@ Not allowed:
 Who helped you?
 
 ```text
-
+-
 ```
 
 What did they help with?
 
 ```text
-
+-
 ```
 
 What did you still do by yourself?
 
 ```text
-
+-
 ```
 
 Did you copy any code from another person?
@@ -305,10 +308,10 @@ Write `Yes` for each statement.
 
 | Statement | Yes/No |
 |---|---|
-| I wrote this submission in my own words. | |
-| I understand my final code. | |
-| I recorded the real OJ status. | |
-| I did not copy AI-generated text directly into this file. | |
-| I did not copy code from another person. | |
-| If I received human help, I disclosed it in this file. | |
-| I submitted the final code to the OJ by myself. | |
+| I wrote this submission in my own words. |Yes|
+| I understand my final code. |Yes|
+| I recorded the real OJ status. |Yes|
+| I did not copy AI-generated text directly into this file. |Yes|
+| I did not copy code from another person. |Yes|
+| If I received human help, I disclosed it in this file. |Yes|
+| I submitted the final code to the OJ by myself. |Yes|
