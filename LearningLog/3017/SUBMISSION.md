@@ -15,25 +15,25 @@ If AI was used for this learning-log-required problem, also complete `ai_reflect
 OJ problem number/title:
 
 ```text
-
+OJ3017 - Bill
 ```
 
 OJ submission ID, if submitted:
 
 ```text
-
+544447
 ```
 
 OJ status:
 
 ```text
-Pass / Not Pass / Not Submit
+Pass
 ```
 
 Independent time spent on this problem:
 
 ```text
-
+15-30 minutes
 ```
 
 Choose one:
@@ -73,7 +73,9 @@ Also explain the input, output, and important constraints.
 If you do not fully understand the problem yet, write what you currently understand. Your understanding may be incomplete or incorrect, but you must make a genuine attempt.
 
 ```text
-
+Input : Meal Cost
+Output : Total Cost
+Get input and calculate the total output. if  Cost <= 50 Service = 50 if Cost >=  1000 service = 1000 and between that number service is Cost * 0.1 then we move on to next step. The next step is to  Calculate VAT so you can do it by using (COST + SERVICE) * 0.7 and after we got COST, SERVICE and VAT is combine 3 of them in to totalcost output
 ```
 
 ---
@@ -93,9 +95,7 @@ This can be rough. It may be incomplete or different from your final solution.
 You may write pseudocode, a flowchart idea, or step-by-step thinking.
 
 ```text
-Step 1:
-Step 2:
-Step 3:
+My first plan was to find SERVICE cost first after I find SERVICE cost I go find VAT next and then after I got everything to calculate I go sum all 3 variable to be the TOTAL COST output
 ```
 
 ---
@@ -115,7 +115,7 @@ Do not copy AI's explanation.
 Do not copy another person's explanation.
 
 ```text
-
+I used the first plan and the result come out as I was planed
 ```
 
 ---
@@ -135,31 +135,31 @@ If the input or output has many lines, write them inside the text blocks.
 Why I chose this case:
 
 ```text
-
+Because the number is very high
 ```
 
 Input:
 
 ```text
-
+100000
 ```
 
 Expected output:
 
 ```text
-
+108070.00
 ```
 
 Actual output:
 
 ```text
-
+108070.00
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ### Test Case 2
@@ -167,31 +167,31 @@ Pass / Not Pass
 Why I chose this case:
 
 ```text
-
+Because it the lowest number to think of
 ```
 
 Input:
 
 ```text
-
+1
 ```
 
 Expected output:
 
 ```text
-
+54.57
 ```
 
 Actual output:
 
 ```text
-
+54.57
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ### Test Case 3
@@ -199,31 +199,31 @@ Pass / Not Pass
 Why I chose this case:
 
 ```text
-
+Because it is a float number
 ```
 
 Input:
 
 ```text
-
+67.67
 ```
 
 Expected output:
 
 ```text
-
+125.91
 ```
 
 Actual output:
 
 ```text
-
+125.91
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ---
@@ -233,7 +233,7 @@ Pass / Not Pass
 Did you use AI for this problem?
 
 ```text
-Yes / No
+No
 ```
 
 If yes, also complete:
@@ -251,7 +251,7 @@ If you only asked a friend, TA, or instructor and did not use AI, you do not nee
 Did you ask a friend, TA, instructor, or another person for help on this problem?
 
 ```text
-Yes / No
+No
 ```
 
 If yes, briefly explain what kind of help you received.
@@ -305,10 +305,10 @@ Write `Yes` for each statement.
 
 | Statement | Yes/No |
 |---|---|
-| I wrote this submission in my own words. | |
-| I understand my final code. | |
-| I recorded the real OJ status. | |
-| I did not copy AI-generated text directly into this file. | |
-| I did not copy code from another person. | |
-| If I received human help, I disclosed it in this file. | |
-| I submitted the final code to the OJ by myself. | |
+| I wrote this submission in my own words. | Yes |
+| I understand my final code. | Yes |
+| I recorded the real OJ status. | Yes |
+| I did not copy AI-generated text directly into this file. | Yes |
+| I did not copy code from another person. | Yes |
+| If I received human help, I disclosed it in this file. | Yes |
+| I submitted the final code to the OJ by myself. | Yes |
