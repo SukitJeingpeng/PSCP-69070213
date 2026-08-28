@@ -4,7 +4,6 @@ PEOPLE, ROW = input().split()
 PEOPLE, ROW = int(PEOPLE), int(ROW)
 
 PEOPLELIST = []
-PEOPLEINROW = 0
 
 count = [0] * (ROW + 1)
 
