@@ -1,55 +1,46 @@
-"""MAIN ASCII FOR ELONMUHHH"""
-X,K = input().split()
-X = int(X)
-CAL = ord(K)
-Middle = int((X + 1) / 2)
+"""ELONMUHHH"""
+
+X, K = map(str, input().split())
+NUM = int(X)
+CHAR = ord(K)
 
 if K == "#":
-    for i in range(1,X+1):
-        for j in range(1,X+1):
-            if j==i or (j + i) - 1 == X:
-                print("#", end="")
+    for i in range(NUM):
+        RESULT = ""
+        for j in range(NUM):
+            if i == j or j + i == (NUM - 1):
+                RESULT += K
             else:
-                print("-", end="")
-        print("")
+                RESULT += "-"
+        print(RESULT)
 else:
-    for i in range(1,X+1):
-        for j in range(1,X+1):
-            if j==i or (j + i) - 1 == X:
-                if X % 2 == 1:
-                    if i < Middle:
-                        TEXTASNUM = CAL + (Middle - i)
-                        TEXT = chr(TEXTASNUM)
-                        if TEXTASNUM >= 127:
-                            print("-", end="")
-                        else:
-                            print(TEXT, end="")
-                    elif i == Middle:
-                        print(K, end="")
-                    elif i > Middle:
-                        TEXTASNUM = CAL + (i - Middle)
-                        TEXT = chr(TEXTASNUM)
-                        if TEXTASNUM >= 127:
-                            print("-", end="")
-                        else:
-                            print(TEXT, end="")
+    if not NUM % 2:
+        NUM1 = NUM // 2
+        for i in range(NUM):
+            RESULT = ""
+            for j in range(NUM):
+                if i == j or j+i == (NUM - 1):
+                    if i <= ((NUM + 1) / 2) - 1 and CHAR + (NUM1 - i) <= 126:
+                        RESULT += chr((CHAR+NUM1) - i)
+                    elif i > ((NUM + 1) / 2) - 1 and (CHAR + i) - (NUM1 + 1) <= 126:
+                        RESULT += chr((CHAR-NUM1) + i)
+                    else:
+                        RESULT += "-"
                 else:
-                    if i < Middle:
-                        TEXTASNUM = CAL + (Middle - i)
-                        TEXT = chr(TEXTASNUM)
-                        if TEXTASNUM >= 127:
-                            print("-", end="")
-                        else:
-                            print(TEXT, end="")
-                    elif i == Middle:
-                        print(K, end="")
-                    elif i > Middle:
-                        TEXTASNUM = CAL + (i - Middle) - 1
-                        TEXT = chr(TEXTASNUM)
-                        if TEXTASNUM >= 127:
-                            print("-", end="")
-                        else:
-                            print(TEXT, end="")
-            else:
-                print("-", end="")
-        print("")
+                    RESULT += "-"
+            print(RESULT)
+    else:
+        NUM1 = (NUM - 1) // 2
+        for i in range(NUM):
+            RESULT = ""
+            for j in range(NUM):
+                if i == j or j+i == (NUM - 1):
+                    if i <= ((NUM + 1) / 2) - 1 and CHAR + (NUM1 - i) <= 126:
+                        RESULT += chr(CHAR+(NUM1-i))
+                    elif i > ((NUM + 1) / 2)-1 and (CHAR + i) - NUM1 <= 126:
+                        RESULT += chr((CHAR + i) - NUM1)
+                    else:
+                        RESULT += "-"
+                else:
+                    RESULT += "-"
+            print(RESULT)

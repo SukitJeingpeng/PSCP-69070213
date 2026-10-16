@@ -1,14 +1,10 @@
-"""MAIN"""
+"""Inflation"""
+MONEY = int(float(input()) * 100)
+YEARS = int(input())
 
-from decimal import Decimal, ROUND_DOWN
+for _ in range(YEARS):
+    MONEY = MONEY * 10381 // 10000
 
-money = Decimal(input())
-years = int(input())
-rate = Decimal("0.0381")
-cent = Decimal("0.01")
-
-for _ in range(years):
-    increase = (money * rate).quantize(cent, rounding=ROUND_DOWN)
-    money += increase
-
-print(f"{money:.2f}")
+INCREASE = MONEY // 100
+TODSANHIYOM = MONEY % 100
+print(f"{INCREASE}.{TODSANHIYOM:02d}")
